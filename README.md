@@ -36,6 +36,7 @@ After completing the wizard, run `acmetool want your.domain.com` to install cert
 * `-p 443` - This port exposes your app.
 * `-v /var/lib/acme` - This folder is where [acmetool](https://github.com/hlandau/acme) stashes its data including the certificates.
 * `-v /home/app/webapp` - This is your node.js project's root, where your server.js exists.
+* `-e DOMAIN` - This is the domain for the Nginx configuration file, it is only used to set the full path to your SSL certificate.
 * `-e PGID` for GroupID - See below for explanation.
 * `-e PUID` for UserID - See below for explanation.
 
