@@ -65,7 +65,7 @@ Part of what makes this container work so well is by allowing you to specify you
 
 * Upgrading to the latest version of OpenSSL or Node.js is easy, connect with the running container and run `apt-get update -q && apt-get install -qy openssl nodejs`.
 * Monitor the logs of the container in realtime with `docker logs -f nginx-nodejs`.
-* Monitor stdout/stderr of your2 application by looking at `/var/logs/nginx/error.log`, once you have shell access.
+* Monitor stdout/stderr of your application by looking at `/var/logs/nginx/error.log`, once you have shell access.
 
 
 **Credits**
