@@ -1,4 +1,4 @@
-# docker-nginx-nodejs
+# docker-nginx-nodejs-lets-encrypt
 
 Container with Nginx 1.8, Node.js 4 and support for Let's Encrypt, based on [passenger-docker](https://github.com/phusion/passenger-docker).
 
@@ -14,7 +14,7 @@ docker create \
     -e DOMAIN=your.domain.com \
     -v <path/to/acme/>:/var/lib/acme \
     -v <path/to/your/project/>:/home/app/webapp \
-    cpoppema/nginx-nodejs
+    cpoppema/docker-nginx-nodejs-lets-encrypt
 ```
 
 This container is based on phusion/passenger-customizable with ssh removed. For shell access whilst the container is running do `docker exec -it nginx-nodejs bash`.
