@@ -21,7 +21,7 @@ This container is based on phusion/passenger-customizable with ssh removed. For 
 
 **Let's encrypt**
 
-This container includes [acmetool](https://github.com/hlandau/acme) to get your own Let's Encrypt certificate and a cronjob to renew them automatically. After creating and starting your own container, make sure to run `acmetool quickstart --export` and complete this small wizard. Be sure to:
+This container includes [acmetool](https://github.com/hlandau/acme) to get your own Let's Encrypt certificate and a cronjob to renew them automatically. After creating and starting your own container, make sure to run `acmetool quickstart --expert` and complete this small wizard. Be sure to:
 
 * Select `RSA` as the type of keys you want for your certificates.
 * Use `4096` as the RSA key size
